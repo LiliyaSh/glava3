@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+const int fut = 12;
+const double rostM = 0.0254;
+const double vesK = 2.2;
+int duim1, fut1, funt1;
+cout « "Vvedite svoi rost: " « " futov - ___\b\b\b";
+cin » fut1;
+cout « "duimov - ___\b\b\b";
+cin » duim1;
+cout « "Vvedite vash ves: ___\b\b\b";
+cin » funt1;
+double rost = fut1 * fut + duim1;
+double rost1 = rost * rostM;
+double ves = funt1 / vesK;
+double IMT = ves / rost1 * rost1;
+cout « "Vash IMT = " « IMT;
+return 0;
+}
