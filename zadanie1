@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+const int fut = 12;
+cout « "Vvedite svoi rost v duimah:___\b\b\b";
+int duim;
+cin » duim;
+int fut1 = duim / fut;
+int duim1 = duim % fut;
+cout « "Vash rost = " « fut1 « " futov, " « duim1 « " duima.";
+return 0;
+}
