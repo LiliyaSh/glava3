@@ -2,11 +2,11 @@
 using namespace std;
 int main() {
 int litri, rasstoyanie;
-cout « "vvedite rastoyanie v killometrah: ";
-cin » rasstoyanie;
-cout « "vvedite kolichestvo potrachennogo benzina v litrah: ";
-cin » litri;
+cout << "vvedite rastoyanie v killometrah: ";
+cin >> rasstoyanie;
+cout << "vvedite kolichestvo potrachennogo benzina v litrah: ";
+cin >> litri;
 int rashod = litri / rasstoyanie * 100;
-cout « "rashod vashego avtomobilya = " «rashod «" litrov na 100 km";
+cout << "rashod vashego avtomobilya = " << rashod << " litrov na 100 km";
 return 0;
 }
